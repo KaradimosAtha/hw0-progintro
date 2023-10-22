@@ -42,6 +42,7 @@ else {
 //We use the loop for and while in order to calculate the lenght
 //H epanaliψh for einai gia na jekinisei apo to proto border kai na ftasei sto deutero aujanontas kathe fora to i kata 1 
 //Eno h epanalhch while einai gia kathe enan apo tous arithmous na ipologizei to mikos collazt
+//To count jekinaei apo 1 gia na metraei kai ton iparxon arithmo kai to exoume mesa sthn for gia na metraei gia kathe arithmo , ara prepei na janaginete 1 otan allazoume arithmo
 
 for (i = border1; i <= border2; ++i) 
 {
