@@ -1,4 +1,4 @@
-//This program finds the maximum length of the collatz conjecture in an specific border of numbers 
+//This program finds the maximum length of the collatz conjecture in an specific border of nu:mbers 
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -26,9 +26,13 @@ int i ;
 
 //If the user gives a negative number the program has to return 0 else it starts calculating the lenght of this number
 if (border1< -100000000 || border2> 100000000 ) {
- printf("You have to give  integer numbers that belong to this border [−100000000, 100000000] \n") ;
+ printf("You have to give  integer numbers that belong to this border [ -100000000, 100000000] \n") ;
 return 1;
 } 
+if(border1 > border2 ) {
+printf("border1 has to be < from border2\n");
+return 1;
+}
 
 if (border1<0){
 printf("%d\n" , 0 ) ;
